@@ -186,6 +186,5 @@ int main()
 	setup_sandbox();
 	puts("Setting up socket");
 	int fd = setup_socket();
-	packet_recv();
 	return 0;
 }
